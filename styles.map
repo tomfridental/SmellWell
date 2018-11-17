@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "scss/styles.css",
+	"sources": [
+		"scss/styles.scss"
+	],
+	"sourcesContent": [
+		"@mixin dis_cen{\r\ndisplay: flex;\r\njustify-content: center;\r\nalign-items: center;\r\n}\r\n\r\n@mixin border($width: 1px, $style: solid, $color: black){\r\n\tborder: {\r\n\t\twidth: $width;\r\n\t\tstyle: $style;\r\n\t\tcolor: $color;\r\n\t\t}\r\n}\r\n\r\nbody{\r\n\tmargin: 0;\r\n\tbackground-color: aqua;\r\n}\r\n\r\nhtml {\r\n\tfont-size: 10px;\t\r\n}\r\n\r\n.wrapper {\r\n\t\r\n}"
+	],
+	"mappings": ";AAcA,AAAA,IAAI,CAAA;EACH,MAAM,EAAE,CAAE;EACV,gBAAgB,EAAE,IAAK;CACvB;;;AAED,AAAA,IAAI,CAAC;EACJ,SAAS,EAAE,IAAK;CAChB",
+	"names": []
+}

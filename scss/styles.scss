@@ -1,0 +1,809 @@
+@mixin dis_cen{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+@mixin border($width: 1px, /* line 27, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 32, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+html {
+  font-size: 10px;
+}
+
+/* line 36, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 40, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 46, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.img__slide {
+  position: fixed;
+  top: 0vh;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  background-image: url("imgs/img__slide1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 59, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.img__slide__2 {
+  background-image: url("imgs/img__slide2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 66, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.small__nav {
+  width: 100%;
+  height: 4rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* line 74, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.small__nav a {
+  color: #55585f;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  padding: 0px 10px;
+  font-size: 11.5px;
+}
+
+/* line 82, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.small__nav a:hover {
+  color: black;
+}
+
+/* line 88, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.nav {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  z-index: 2;
+  background-color: white;
+}
+
+/* line 98, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.nav__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  width: 15vw;
+}
+
+/* line 103, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.nav__logo__img {
+  width: 100px;
+  height: 55px;
+}
+
+/* line 110, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.nav__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
+  height: inherit;
+  width: 85vw;
+  padding-right: 50px;
+}
+
+/* line 117, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.nav__links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #55585f;
+  font-size: 1.4rem;
+  height: 100%;
+  width: 13vw;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* line 126, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.nav__links a:hover {
+  opacity: 0.5;
+}
+
+/* line 133, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.img__slide__empty {
+  width: 100%;
+  height: 85vh;
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 140, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.img__slide__empty__text {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  width: 300px;
+  margin-top: 80px;
+  margin-right: 100px;
+  text-align: right;
+  font-size: 8rem;
+  color: white;
+  font-weight: 900;
+  font-family: 'Anton', sans-serif;
+  line-height: 7rem;
+}
+
+/* line 155, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.img__slide__empty__text .empty__make {
+  align-self: flex-start;
+}
+
+/* line 159, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.img__slide__empty__text .empty__day {
+  align-self: flex-start;
+  font-family: 'Merienda', cursive;
+}
+
+/* line 164, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.img__slide__empty__text img {
+  padding-top: 10px;
+}
+
+/* line 170, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info1 {
+  height: 50rem;
+  background-color: #eeeeee;
+  display: flex;
+}
+
+/* line 175, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info1__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: inherit;
+  width: 50%;
+}
+
+/* line 181, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info1__left__box {
+  height: inherit;
+  margin: 20px 0px 20px 140px;
+  font-family: 'Rajdhani',sans-serif;
+  padding-bottom: 60px;
+}
+
+/* line 188, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info1__left__box__head {
+  margin-top: 50px;
+  font-size: 4.6rem;
+  font-weight: 600;
+}
+
+/* line 194, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info1__left__box__main {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+/* line 199, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info1__left__box__main a {
+  font-weight: 600;
+  font-family: 'Roboto',sans-serif;
+  color: #55585f;
+  font-size: 2.8rem;
+}
+
+/* line 206, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info1__left__box__main a:hover {
+  opacity: 0.5;
+}
+
+/* line 214, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info1__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  width: 50%;
+}
+
+/* line 221, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info2 {
+  height: 48vh;
+  background-color: #fd5b82;
+  color: white;
+  position: relative;
+}
+
+/* line 227, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info2__main {
+  padding: 20px 0px 50px 170px;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Rajdhani',sans-serif;
+}
+
+/* line 234, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info2__main__head {
+  font-size: 8.5rem;
+  font-weight: 900;
+}
+
+/* line 238, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info2__main__head__text {
+  font-weight: 600;
+  font-size: 3rem;
+  position: relative;
+  top: -25px;
+  right: -10px;
+  width: 600px;
+}
+
+/* line 250, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info2__main__price {
+  font-size: 5.2rem;
+  font-weight: 900;
+}
+
+/* line 255, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info2__main a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 900;
+  font-family: 'Roboto',sans-serif;
+  border: 3px solid white;
+  height: 55px;
+  width: 130px;
+  border-radius: 4px;
+}
+
+/* line 266, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info2__main a:hover {
+  background-color: white;
+  color: #55585f;
+}
+
+/* line 272, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info2__main__img {
+  position: absolute;
+  top: 100px;
+  right: 50px;
+}
+
+/* line 278, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info2__main__img img {
+  width: 392px;
+  height: 379px;
+}
+
+/* line 289, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info3 {
+  background-color: white;
+  color: #55585f;
+  font-family: 'Roboto',sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 298, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info3__text {
+  font-size: 2.6rem;
+  height: 40vh;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  color: #4a494a;
+  margin-top: 90px;
+  margin-left: 150px;
+  font-style: italic;
+}
+
+/* line 313, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info3__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+/* line 317, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info3__link a {
+  padding: 12px 30px;
+  border: 2px solid #4a494a;
+  font-size: 2.2rem;
+  color: #4a494a;
+  border-radius: 6px;
+}
+
+/* line 324, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info3__link a:hover {
+  background-color: #4a494a;
+  color: #eeeeee;
+}
+
+/* line 332, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+}
+
+/* line 338, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.info4__head {
+  margin-top: 100px;
+  text-align: center;
+  color: #4a494a;
+  font-size: 48px;
+  width: 70%;
+  font-weight: 900;
+  font-family: 'Rajdhani',sans-serif;
+  font-style: normal;
+}
+
+/* line 351, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.photo {
+  width: 100%;
+  height: 85vh;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 357, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.photo__banner {
+  color: white;
+  font-family: 'Rajdhani',sans-serif;
+  text-align: center;
+  background-color: rgba(10, 10, 10, 0.15);
+  font-weight: 900;
+  width: 100%;
+  font-size: 11rem;
+}
+
+/* line 368, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fallowus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  font-family: "Rajdhani", sans-serif;
+}
+
+/* line 375, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fallowus__tag {
+  color: #4a494a;
+  font-size: 4.8rem;
+  font-weight: 300;
+  margin-top: 50px;
+}
+
+/* line 382, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fallowus__link {
+  color: #4a494a;
+  border: 2px solid #4a494a;
+  font-size: 3rem;
+  padding: 5px 20px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+/* line 390, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fallowus__link:hover {
+  color: white;
+  background-color: #4a494a;
+}
+
+/* line 396, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fallowus__imgs {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+/* line 403, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fallowus__imgs__img {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  flex-basis: 24.3%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+/* line 412, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fallowus__imgs .img1 {
+  background-image: url("imgs/fallowus_img1.jpg");
+}
+
+/* line 416, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fallowus__imgs .img2 {
+  background-image: url("imgs/fallowus_img2.jpg");
+}
+
+/* line 420, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fallowus__imgs .img3 {
+  background-image: url("imgs/fallowus_img3.jpg");
+}
+
+/* line 424, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fallowus__imgs .img4 {
+  background-image: url("imgs/fallowus_img4.jpg");
+}
+
+/* line 428, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fallowus__imgs .img5 {
+  background-image: url("imgs/fallowus_img5.jpg");
+}
+
+/* line 432, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fallowus__imgs .img6 {
+  background-image: url("imgs/fallowus_img6.jpg");
+}
+
+/* line 436, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fallowus__imgs .img7 {
+  background-image: url("imgs/fallowus_img7.jpg");
+}
+
+/* line 440, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fallowus__imgs .img8 {
+  background-image: url("imgs/fallowus_img8.jpg");
+}
+
+/* line 444, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fallowus__imgs .img9 {
+  background-image: url("imgs/fallowus_img9.jpg");
+}
+
+/* line 448, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fallowus__imgs .img10 {
+  background-image: url("imgs/fallowus_img10.jpg");
+}
+
+/* line 452, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fallowus__imgs .img11 {
+  background-image: url("imgs/fallowus_img11.jpg");
+}
+
+/* line 456, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fallowus__imgs .img12 {
+  background-image: url("imgs/fallowus_img12.jpg");
+}
+
+/* line 461, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fallowus__button {
+  display: flex;
+  margin-top: 20px;
+}
+
+/* line 465, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fallowus__button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  font-size: 1.6rem;
+  font-weight: 900;
+  border-color: #76aad7;
+  color: #76aad7;
+  border-radius: 50%;
+  background-color: white;
+  width: 90px;
+  height: 90px;
+}
+
+/* line 477, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fallowus__button a:hover {
+  background-color: aquamarine;
+}
+
+/* line 484, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.inspiration {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+/* line 492, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.inspiration__head {
+  font-size: 4.4rem;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+  padding-bottom: 40px;
+}
+
+/* line 499, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.inspiration__imgs {
+  width: 100%;
+  display: flex;
+}
+
+/* line 503, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.inspiration__imgs__img {
+  width: 33.33%;
+  height: 350px;
+}
+
+/* line 507, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.inspiration__imgs__img:hover {
+  opacity: 0.8;
+}
+
+/* line 514, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.signup {
+  width: 100%;
+  background-color: #e8e8e8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+/* line 522, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.signup__head {
+  font-size: 3rem;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 600;
+}
+
+/* line 528, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.signup__form {
+  padding-top: 10px;
+}
+
+/* line 531, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.signup__form__text {
+  width: 20rem;
+  height: 4rem;
+  padding-left: 10px;
+  color: #4a494a;
+}
+
+/* line 538, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.signup__form__submit {
+  background-color: #e8e8e8;
+  height: 4rem;
+  width: 10rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #4a494a;
+  border-radius: 4px;
+}
+
+/* line 545, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.signup__form__submit:hover {
+  color: #e8e8e8;
+  background-color: #4a494a;
+}
+
+/* line 553, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.footer {
+  width: 100%;
+  display: flex;
+  background-color: #2e2e2e;
+  color: white;
+  font-size: 1.6rem;
+}
+
+/* line 560, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.footer__logo {
+  width: 30%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 40px;
+}
+
+/* line 568, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.footer__logo__img {
+  padding-right: 80px;
+}
+
+/* line 573, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.footer__adress {
+  width: 20%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+
+/* line 583, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.footer__adress__head {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+/* line 590, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.footer__links {
+  width: 20%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 2rem;
+}
+
+/* line 599, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.footer__links a {
+  color: white;
+  font-size: 1.6rem;
+  padding-top: 5px;
+}
+
+/* line 606, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.footer__social {
+  width: 30%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 612, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.footer__social__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+/* line 616, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.footer__social__links a {
+  padding: 0px 5px;
+}
+
+/* line 620, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.footer__social__links i {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #2e2e2e;
+  height: 30px;
+  width: 30px;
+  border: 1px solid #2e2e2e;
+  border-radius: 6px;
+}
+
+/* line 634, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.footer__small {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+/* line 641, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.footer__small img {
+  padding: 0px 10px;
+}
+
+/* line 646, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fixednav {
+  display: none;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+
+/* line 656, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fixednav__links {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+/* line 661, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fixednav__links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #55585f;
+  font-size: 1.4rem;
+  height: 100%;
+  width: 13vw;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* line 670, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fixednav__links a:hover {
+  opacity: 0.5;
+}
+
+/* line 677, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fixednav__logo {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 681, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fixednav__logo img {
+  width: 50px;
+  height: 35px;
+}
+
+/* line 688, C:/Users/user/Desktop/Tom Projects/Smell Well/scss/styles.scss */
+.fixednav__show {
+  display: flex;
+}
+
+/*# sourceMappingURL=../styles.map */$style: solid, $color: black){
+	border: {
+		width: $width;
+		style: $style;
+		color: $color;
+		}
+}
+
+body{
+	margin: 0;
+	background-color: aqua;
+}
+
+html {
+	font-size: 10px;	
+}
+
+.wrapper {
+	
+}
